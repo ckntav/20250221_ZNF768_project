@@ -1,0 +1,5 @@
+GSE	description	sample_name	cell_line	target	isogenic_replicate	fastq_folder	batch_folder	SRR	fastq_R1_filename	fastq_R1_filepath	fastq_R2_filename	fastq_R2_filepath
+GSM3043267	Raji ZNF768 ChIP-seq (rep. 1)	RAJI_ZNF768_rep1	RAJI	ZNF768	rep1	chipseq_ZNF768_GSE111879	raw_fastq	SRR6841436	SRR6841436_1.fastq.gz	raw_fastq/SRR6841436_1.fastq.gz	SRR6841436_2.fastq.gz	raw_fastq/SRR6841436_2.fastq.gz
+GSM3043268	Raji ZNF768 ChIP-seq (rep. 2)	RAJI_ZNF768_rep2	RAJI	ZNF768	rep2	chipseq_ZNF768_GSE111879	raw_fastq	SRR6841437	SRR6841437_1.fastq.gz	raw_fastq/SRR6841437_1.fastq.gz	SRR6841437_2.fastq.gz	raw_fastq/SRR6841437_2.fastq.gz
+GSM3043270	U2OS ZNF768 ChIP-seq (rep. 1)	U2OS_ZNF768_rep1	U2OS	ZNF768	rep1	chipseq_ZNF768_GSE111879	raw_fastq	SRR6841441	SRR6841441_1.fastq.gz	raw_fastq/SRR6841441_1.fastq.gz	SRR6841441_2.fastq.gz	raw_fastq/SRR6841441_2.fastq.gz
+GSM3043271	U2OS ZNF768 ChIP-seq (rep. 2)	U2OS_ZNF768_rep2	U2OS	ZNF768	rep2	chipseq_ZNF768_GSE111879	raw_fastq	SRR6841442	SRR6841442_1.fastq.gz	raw_fastq/SRR6841442_1.fastq.gz	SRR6841442_2.fastq.gz	raw_fastq/SRR6841442_2.fastq.gz

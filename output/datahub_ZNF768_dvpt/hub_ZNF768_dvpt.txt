@@ -1,0 +1,6 @@
+hub ZNF768_dvpt
+shortLabel ZNF768_dvpt
+longLabel ZNF768_dvpt
+genomesFile genomes_ZNF768_dvpt.txt
+email christophe.tav@crchudequebec.ulaval.ca
+descriptionUrl

@@ -1,0 +1,4 @@
+GSE	description	sample_name	cell_line	target	isogenic_replicate	file_number	fastq_folder	batch_folder	SRR	fastq_R1_filename	fastq_R1_filepath
+GSM3043269	Raji input	Raji_WCE_rep1_f1	Raji	WCE	rep1	f1	chipseq_ZNF768_GSE111879	raw_fastq	SRR6841438	SRR6841438.fastq.gz	raw_fastq/SRR6841438.fastq.gz
+GSM3043269	Raji input	Raji_WCE_rep1_f2	Raji	WCE	rep1	f2	chipseq_ZNF768_GSE111880	raw_fastq	SRR6841439	SRR6841439.fastq.gz	raw_fastq/SRR6841439.fastq.gz
+GSM3043269	Raji input	Raji_WCE_rep1_f3	Raji	WCE	rep1	f3	chipseq_ZNF768_GSE111881	raw_fastq	SRR6841440	SRR6841440.fastq.gz	raw_fastq/SRR6841440.fastq.gz
