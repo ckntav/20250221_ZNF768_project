@@ -1,0 +1,2 @@
+Sample	Readset	MarkName	MarkType	RunType	Adapter1	Adapter2	FASTQ1	FASTQ2	BAM
+U2OS_WCE_rep1	ChIP_seq_U2OS_WCE_rep1	Input	I	PAIRED_END	AGATCGGAAGAGCACACGTCTGAACTCCAGTCA	AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT	fastp_output/U2OS_WCE_rep1_1.fastq.gz	fastp_output/U2OS_WCE_rep1_2.fastq.gz	

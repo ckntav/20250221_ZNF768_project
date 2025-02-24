@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sbatch scripts/chipseq_ZNF768_GSE111879_WCE_U2OS_pipeline/04_fastqc_aftertrim/batch_sh/fastqc_aftertrim_U2OS_WCE_rep1_R1.sh
+sbatch scripts/chipseq_ZNF768_GSE111879_WCE_U2OS_pipeline/04_fastqc_aftertrim/batch_sh/fastqc_aftertrim_U2OS_WCE_rep1_R2.sh

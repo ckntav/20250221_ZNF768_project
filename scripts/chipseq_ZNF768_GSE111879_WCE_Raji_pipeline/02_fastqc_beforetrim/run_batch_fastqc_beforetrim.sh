@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sbatch scripts/chipseq_ZNF768_GSE111879_WCE_Raji_pipeline/02_fastqc_beforetrim/batch_sh/fastqc_beforetrim_Raji_WCE_rep1_f1.sh
+sbatch scripts/chipseq_ZNF768_GSE111879_WCE_Raji_pipeline/02_fastqc_beforetrim/batch_sh/fastqc_beforetrim_Raji_WCE_rep1_f2.sh
+sbatch scripts/chipseq_ZNF768_GSE111879_WCE_Raji_pipeline/02_fastqc_beforetrim/batch_sh/fastqc_beforetrim_Raji_WCE_rep1_f3.sh

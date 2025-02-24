@@ -1,0 +1,6 @@
+#!/bin/sh
+
+mkdir -p /home/chris11/projects/def-stbil30/chris11/20250221_ZNF768_project/output/chip-pipeline_ZNF768_GSE111879-GRCh38_PE/tracks_pooled
+
+sbatch scripts/chipseq_ZNF768_GSE111879_pipeline/07_bamToBigwig_pooled_mate1/batch_sh/bamToBigwig_RAJI_ZNF768_pooled.sh
+sbatch scripts/chipseq_ZNF768_GSE111879_pipeline/07_bamToBigwig_pooled_mate1/batch_sh/bamToBigwig_U2OS_ZNF768_pooled.sh

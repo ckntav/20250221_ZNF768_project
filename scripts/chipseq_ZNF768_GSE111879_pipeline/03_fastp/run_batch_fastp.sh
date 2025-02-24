@@ -1,0 +1,6 @@
+#!/bin/sh
+
+sbatch scripts/chipseq_ZNF768_GSE111879_pipeline/03_fastp/batch_sh/fastp_RAJI_ZNF768_rep1.sh
+sbatch scripts/chipseq_ZNF768_GSE111879_pipeline/03_fastp/batch_sh/fastp_RAJI_ZNF768_rep2.sh
+sbatch scripts/chipseq_ZNF768_GSE111879_pipeline/03_fastp/batch_sh/fastp_U2OS_ZNF768_rep1.sh
+sbatch scripts/chipseq_ZNF768_GSE111879_pipeline/03_fastp/batch_sh/fastp_U2OS_ZNF768_rep2.sh
