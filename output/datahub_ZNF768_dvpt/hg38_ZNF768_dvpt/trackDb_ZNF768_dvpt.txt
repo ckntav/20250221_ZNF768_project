@@ -6,7 +6,7 @@ type bigWig
 autoScale on
 alwaysZero on
 visibility full
-color 59, 91, 165
+color 75, 110, 163
 maxHeightPixels 100:60:8
 
 track RAJI_ZNF768_rep2
@@ -17,7 +17,18 @@ type bigWig
 autoScale on
 alwaysZero on
 visibility full
-color 59, 91, 165
+color 75, 110, 163
+maxHeightPixels 100:60:8
+
+track RAJI_ZNF768_pooled
+bigDataUrl RAJI_ZNF768_pooled_RPKM.bw
+shortLabel RAJI_ZNF768_pooled
+longLabel RAJI_ZNF768_pooled
+type bigWig
+autoScale on
+alwaysZero on
+visibility full
+color 75, 110, 163
 maxHeightPixels 100:60:8
 
 track U2OS_ZNF768_rep1
@@ -28,7 +39,7 @@ type bigWig
 autoScale on
 alwaysZero on
 visibility full
-color 232, 122, 93
+color 218, 165, 31
 maxHeightPixels 100:60:8
 
 track U2OS_ZNF768_rep2
@@ -39,7 +50,18 @@ type bigWig
 autoScale on
 alwaysZero on
 visibility full
-color 232, 122, 93
+color 218, 165, 31
+maxHeightPixels 100:60:8
+
+track U2OS_ZNF768_pooled
+bigDataUrl U2OS_ZNF768_pooled_RPKM.bw
+shortLabel U2OS_ZNF768_pooled
+longLabel U2OS_ZNF768_pooled
+type bigWig
+autoScale on
+alwaysZero on
+visibility full
+color 218, 165, 31
 maxHeightPixels 100:60:8
 
 track GSM3043267_Raji.R1_peaks
@@ -49,7 +71,7 @@ longLabel GSM3043267_Raji.R1_peaks
 type bigBed
 autoScale on
 visibility dense
-color 59, 91, 165
+color 75, 110, 163
 
 track GSM3043268_Raji.R2_peaks
 bigDataUrl GSM3043268_Raji.R2.sorted.bb
@@ -58,7 +80,7 @@ longLabel GSM3043268_Raji.R2_peaks
 type bigBed
 autoScale on
 visibility dense
-color 59, 91, 165
+color 75, 110, 163
 
 track GSM3043270_USOS.R1_peaks
 bigDataUrl GSM3043270_USOS.R1.sorted.bb
@@ -67,7 +89,7 @@ longLabel GSM3043270_USOS.R1_peaks
 type bigBed
 autoScale on
 visibility dense
-color 232, 122, 93
+color 218, 165, 31
 
 track GSM3043271_USOS.R2_peaks
 bigDataUrl GSM3043271_USOS.R2.sorted.bb
@@ -76,4 +98,4 @@ longLabel GSM3043271_USOS.R2_peaks
 type bigBed
 autoScale on
 visibility dense
-color 232, 122, 93
+color 218, 165, 31
