@@ -3,6 +3,9 @@ library(tidyverse)
 # module load fastp/0.23.4
 
 #
+pi_id <- "def-stbil30-ab"
+
+#
 fastq_list_filename <- "chipseq_ZNF768_GSE111879_fastq_list.txt"
 df <- read_tsv(file.path("input", "chipseq_ZNF768_GSE111879", fastq_list_filename))
 output_pipeline_dir <- "chip-pipeline_ZNF768_GSE111879-GRCh38_PE"
@@ -16,7 +19,7 @@ header_sh <- c("#!/bin/sh",
                "#SBATCH --ntasks-per-node=1",
                "#SBATCH --cpus-per-task=4",
                "#SBATCH --mem-per-cpu=8G",
-               "#SBATCH --account=def-stbil30",
+               paste0("#SBATCH --account=", pi_id),
                "#SBATCH --mail-user=christophe.tav@gmail.com",
                "#SBATCH --mail-type=ALL")
 

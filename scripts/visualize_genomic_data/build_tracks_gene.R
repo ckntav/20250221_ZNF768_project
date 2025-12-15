@@ -1,5 +1,6 @@
 library(tidyverse)
 library(plotgardener)
+library(GenomeInfoDb)
 source("scripts/ckn_utils/ckn_utils_savePlot.R")
 source("scripts/ckn_utils/ckn_utils_ensembl.R")
 source("scripts/visualize_genomic_data/utils_gviz/gviz_loadRanges.R")

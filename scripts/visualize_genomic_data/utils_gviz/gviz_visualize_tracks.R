@@ -1,4 +1,5 @@
-library(GenomicFeatures)
+# library(GenomicFeatures)
+library(txdbmaker)
 
 ##### Genome assembly
 ensembl104_TxDb <- loadDb(file = "input/ensembl/txdb.ensembl104.for.plotgardener.sqlite")

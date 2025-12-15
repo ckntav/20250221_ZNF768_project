@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sbatch scripts/chipseq_ZNF768_GSE76494_pipeline/02_fastqc_beforetrim/batch_sh/fastqc_beforetrim_HEK293_ZNF768_rep1_f1.sh
+sbatch scripts/chipseq_ZNF768_GSE76494_pipeline/02_fastqc_beforetrim/batch_sh/fastqc_beforetrim_HEK293_ZNF768_rep1_f2.sh

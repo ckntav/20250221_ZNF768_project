@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sbatch scripts/chipseq_ZNF768_GSE76494_pipeline/05_fastqc_aftertrim/batch_sh/fastqc_aftertrim_HEK293_ZNF768_rep1_R1.sh
