@@ -13,4 +13,8 @@ all_peaks <- load_ZNF768_peaks()
 
 all_RAJI_peaks <- all_peaks[grepl("RAJI", names(all_peaks))]
 all_U2OS_peaks <-all_peaks[grepl("U2OS", names(all_peaks))]
-# all_HEK293_peaks <-all_peaks[grepl("U2OS", names(all_peaks))] # to_change
+
+#
+all_HEK293_peaks <- GRangesList()
+HEK293_ZNF768_rep1_peaks <- rtracklayer::import("output/GEO_peak_GSE76496/HEK293_ZNF768_rep1.sorted.bed")
+all_HEK293_peaks[["HEK293_ZNF768_rep1"]] <- HEK293_ZNF768_rep1_peaks

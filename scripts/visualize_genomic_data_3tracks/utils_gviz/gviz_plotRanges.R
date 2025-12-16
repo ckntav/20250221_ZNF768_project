@@ -46,17 +46,17 @@ for (peakset in names(all_U2OS_peaks)) {
   plotText(label = peakset, x = 0.95, y = "-0.025b", fontsize = fontsize_val, just = "right")
 }
 
-# for (peakset in names(all_HEK293_peaks)) {
-#   message("# ", peakset)
-#   
-#   peaks <- all_HEK293_peaks[[peakset]]
-#   # seqlevelsStyle(peaks) <- "NCBI"
-#   
-#   plotRanges(data = peaks, params = params_i,
-#              y = "0.02b", height = 0.05,
-#              linecolor = NA, fill =  "#C85A54", collapse = TRUE)
-#   plotText(label = peakset, x = 0.95, y = "-0.025b", fontsize = fontsize_val, just = "right")
-# }
+for (peakset in names(all_HEK293_peaks)) {
+  message("# ", peakset)
+
+  peaks <- all_HEK293_peaks[[peakset]]
+  # seqlevelsStyle(peaks) <- "NCBI"
+
+  plotRanges(data = peaks, params = params_i,
+             y = "0.02b", height = 0.05,
+             linecolor = NA, fill =  "#C85A54", collapse = TRUE)
+  plotText(label = peakset, x = 0.95, y = "-0.025b", fontsize = fontsize_val, just = "right")
+}
 
 
 # 
