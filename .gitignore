@@ -3,6 +3,7 @@
 .RData
 .Ruserdata
 output/GEO_peak_GSE111879
+output/GEO_peak_GSE76496
 output/chip-pipeline_ZNF768_GSE111879-GRCh38_PE
 input/ensembl
 output/chip-pipeline_ZNF768_GSE76496-GRCh38_SE
