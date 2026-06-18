@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sbatch scripts/chipseq_ZNF768_ENCSR181ABP_pipeline/04_fastqc_aftertrim/batch_sh/fastqc_aftertrim_HEPG2_ZNF768_rep1_R1.sh
+sbatch scripts/chipseq_ZNF768_ENCSR181ABP_pipeline/04_fastqc_aftertrim/batch_sh/fastqc_aftertrim_HEPG2_ZNF768_rep2_R1.sh

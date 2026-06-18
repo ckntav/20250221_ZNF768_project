@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sbatch scripts/chipseq_ZNF768_ENCSR181ABP_pipeline/03_fastp/batch_sh/fastp_HEPG2_ZNF768_rep1.sh
+sbatch scripts/chipseq_ZNF768_ENCSR181ABP_pipeline/03_fastp/batch_sh/fastp_HEPG2_ZNF768_rep2.sh

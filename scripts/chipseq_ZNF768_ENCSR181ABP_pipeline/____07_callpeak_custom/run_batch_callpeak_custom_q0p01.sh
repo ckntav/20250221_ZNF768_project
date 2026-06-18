@@ -1,0 +1,6 @@
+#!/bin/sh
+
+sbatch scripts/chipseq_ZNF768_GSE111879_pipeline/07_callpeak_custom/batch_sh/callpeak_custom_0p01_RAJI_ZNF768_rep1.sh
+sbatch scripts/chipseq_ZNF768_GSE111879_pipeline/07_callpeak_custom/batch_sh/callpeak_custom_0p01_RAJI_ZNF768_rep2.sh
+sbatch scripts/chipseq_ZNF768_GSE111879_pipeline/07_callpeak_custom/batch_sh/callpeak_custom_0p01_U2OS_ZNF768_rep1.sh
+sbatch scripts/chipseq_ZNF768_GSE111879_pipeline/07_callpeak_custom/batch_sh/callpeak_custom_0p01_U2OS_ZNF768_rep2.sh
