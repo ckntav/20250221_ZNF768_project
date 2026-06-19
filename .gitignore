@@ -8,3 +8,4 @@ output/chip-pipeline_ZNF768_GSE111879-GRCh38_PE
 input/ensembl
 output/chip-pipeline_ZNF768_GSE76496-GRCh38_SE
 output/chip-pipeline_ZNF768_ENCSR181ABP-GRCh38_SE
+output/ENCODE_peak_ENCSR181ABP
