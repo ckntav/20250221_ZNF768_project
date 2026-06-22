@@ -8,6 +8,8 @@ source("scripts/ckn_utils/ckn_utils_ensembl.R")
 source("scripts/visualize_genomic_data_4tracks/utils_gviz/gviz_loadRanges.R")
 
 #
+output_format <- "tiff"   # "tiff" or "pdf"
+tiff_dpi <- 300           # used only when output_format == "tiff"
 width_val <- 5
 # height_val <- 1.9
 height_val <- 3.2
@@ -74,8 +76,16 @@ for (i in 1:nrow(df)) {
   
   #
   output_dir <- "output/analysis/tracks_plotgardener_4tracks"
-  output_filepath <- file.path(output_dir, paste0(output_file, ".pdf"))
-  pdf(file = output_filepath, width = width_val, height = height_val)
+  if (output_format == "tiff") {
+    output_filepath <- file.path(output_dir, paste0(output_file, "_", tiff_dpi, "dpi.tiff"))
+    tiff(filename = output_filepath, width = width_val, height = height_val,
+         units = "in", res = tiff_dpi, compression = "lzw")
+  } else if (output_format == "pdf") {
+    output_filepath <- file.path(output_dir, paste0(output_file, ".pdf"))
+    pdf(file = output_filepath, width = width_val, height = height_val)
+  } else {
+    stop("Unsupported output_format: ", output_format, " (use 'tiff' or 'pdf')")
+  }
   
   # Create pages
   pageCreate(width = width_val, height = height_val, default.units = "inches", showGuides = FALSE)
@@ -93,5 +103,5 @@ for (i in 1:nrow(df)) {
   # pageGuideHide()
   
   dev.off()
-  message(" > Plot (pdf) saved in ", output_filepath)
+  message(" > Plot (", output_format, ") saved in ", output_filepath)
 }
